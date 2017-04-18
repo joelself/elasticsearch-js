@@ -4431,6 +4431,7 @@ api.msearch = ca({
       fmt: '/_msearch'
     }
   ],
+  requestTimeout: 180000,
   needBody: true,
   bulkBody: true,
   method: 'POST'
